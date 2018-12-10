@@ -6,6 +6,9 @@ public func routes(_ router: Router) throws {
     router.get { req in
         return "It works!"
     }
+    router.get("yupuuy") { req in 
+                return "yupuuy"
+                         }
     
     // Basic "Hello, world!" example
     router.get("hello") { req in
